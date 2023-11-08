@@ -1,4 +1,4 @@
-input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
-    basic.showIcon(IconNames.Heart)
-    basic.showIcon(IconNames.Yes)
+basic.forever(function () {
+    basic.showIcon(IconNames.StickFigure)
+    basic.setLedColor(0x7f00ff)
 })
